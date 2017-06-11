@@ -1,0 +1,27 @@
+/* JUMBOTRON*/
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+/* SECTION ABOUT ME*/
+.aboutme{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: verdana, geneva, sans-serif;  /*titres about me*/
+}
+
+.p-aboutme{
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 0.8cm;
+	padding-top: 30px;
+}
+
+.onstreet {
+	font-weight: bold;
+}
+
