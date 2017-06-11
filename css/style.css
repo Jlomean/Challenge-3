@@ -1,6 +1,7 @@
 /*NAVBAR*/
 .navbar-nav {
 	text-transform: uppercase;
+	position: fixed;
 }
 
 	
@@ -27,6 +28,34 @@ h1 {
 	font-size: 17px;
 }
 
+/*JUMBOTRON*/
+.fond {
+	background-image: url(photography.jpg) no-repeat center center;
+	width: 100%;
+	height: 300px;
+}
+
+.jumbotron {
+	height: 500px;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: trajan bold;
+}
+
+.travel {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: trajan;	
+}
+
+.marina {
+	text-align: center;
+	font-family: trajan;
+	font-style: italic;
+}
 
 /* SECTION ABOUT ME*/
 .aboutme{
