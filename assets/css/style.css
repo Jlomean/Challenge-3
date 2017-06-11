@@ -176,6 +176,53 @@ h3 a:hover {
 	transition: 0.3s;
 }
 
+/* MENU DEROULANT */
+
+.pages {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	margin: 2em;
+}
+
+.pages ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.pages li {
+	border: 1px solid lightgray;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	transition: 0.3s;
+}
+
+.pages a {
+	text-decoration: none;
+	color: gray;
+	transition: 0.3s;
+}
+
+.pages a:hover {
+	color: black;
+	transition: 0.3s;
+}
+
+.pages li:hover {
+	border: 1px solid black;
+	transition: 0.3s;
+}
+
+.current {
+	background-color: darkred;
+	color: white;
+}
+
+.current a {
+	display: none;
+}
+
 /* SECTION ABOUT ME*/
 .aboutme{
 	text-transform: uppercase;
