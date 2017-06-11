@@ -6,13 +6,15 @@
 	font-family: trajan;
 }	
 
+
 /* CONTAINER-FLUID GRAND TITRE*/
-.container-fluid {
+.grandtitre {
 	background-color: #f5f5f0;
-	height: 150px;
+	height: 280px;
 }
 
 h1 {
+	padding-top: 80px;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: trajan;
