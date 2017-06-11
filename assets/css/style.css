@@ -275,4 +275,65 @@ h3 a:hover {
 	max-width: 100%;
 	margin-top: 25px;
 }
+
+/* INSTAGRAM */
+
+.instagrambar {
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 5em 0 0 0;
+}
+
+.instagrambar img {
+	max-width: 50%;
+}
+
+.insta {
+	display: flex;
+	z-index: 2;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	padding: 1em;
+	color: black;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+}
+
+
+/* BARRE SOCIALE */
+
+.socbar {	
+	background-color: #222;
+	border-bottom: 1px solid gray;
+	padding: 2em 0;
+}
+
+.socbar ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+	padding: 0;
+}
+
+.socbar a {
+	text-decoration: none;
+	color: gray;
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.socbar span {
+	margin: 0 0.5em;
+}
+
 /*FOOTER*/
