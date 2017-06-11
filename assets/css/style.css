@@ -30,6 +30,11 @@ h1 {
 }
 
 /*JUMBOTRON*/
+.grandephoto {
+	background-image: center;
+	background-repeat: no-repeat;
+	width: 100%;
+}
 
 .jumbotron {
 	background-image: url('/assets/img/photography.jpg'); 
