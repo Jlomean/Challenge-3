@@ -1,7 +1,17 @@
-/* JUMBOTRON*/
-
-h2 {
+/*NAVBAR*/
+.navbar-nav {
 	text-transform: uppercase;
+}
+
+	
+
+/* JUMBOTRON*/
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.forfashion {
 	text-align: center;
 }
 
