@@ -33,6 +33,7 @@ h1 {
 /*JUMBOTRON*/
 .jumbotron {
 	z-index: 1;
+	display: flex;
 	background-color: white;
 	background-image: center;
 	background-repeat: no-repeat;
@@ -47,13 +48,16 @@ h1 {
 	z-index: 2;
 	background-color: white;
 	position: absolute;
+	margin-top: 420px;
+	margin-left: 500px;
+	width: 430px;
 }
 
 h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Playfair Display', serif;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -63,6 +67,7 @@ h2 {
 	font-family: trajan;	
 	color: #990000;
 	font-size: 8px;
+	padding-top: 25px;
 }
 
 .marina {
