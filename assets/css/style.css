@@ -54,29 +54,37 @@ h1 {
 	background-color: white;
 	position: absolute;
 	width: 430px;
+	
+}
+
+.trendy .bordure {
+	margin: 5px;
+	border: solid lightgray 1px;
+
 }
 
 h2 {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-family: 'Playfair display', serif;
+	font-size: 25px;
 	font-weight: bold;
 }
 
-.travel {
+.trendy .travel {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: trajan;	
+	font-family: 'Lato';	
 	color: #990000;
-	font-size: 8px;
+	font-size: 15px;
 	padding-top: 25px;
 }
 
-.marina {
+.trendy .marina {
 	text-align: center;
-	font-family: trajan;
+	font-family: 'Lato';
 	font-style: italic;
+	font-size: 15px;
 }
 
 /* MAIN */
